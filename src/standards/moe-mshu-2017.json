@@ -1,0 +1,39 @@
+{
+  "slug": "moe-mshu-2017",
+  "country": "CN",
+  "name": "普通高中美术课程标准（2017年版2025年修订）",
+  "version": "2017/2025",
+  "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html",
+  "textIncluded": false,
+  "license": "© 中华人民共和国教育部. Codes and publicly known module / domain / theme titles only; verbatim 课标 text omitted.",
+  "topics": [
+    {
+      "key": "moe-mshu-2017:B1.美术鉴赏",
+      "code": "B1.美术鉴赏"
+    },
+    {
+      "key": "moe-mshu-2017:B2.绘画",
+      "code": "B2.绘画"
+    },
+    {
+      "key": "moe-mshu-2017:B3.中国书画",
+      "code": "B3.中国书画"
+    },
+    {
+      "key": "moe-mshu-2017:B4.雕塑",
+      "code": "B4.雕塑"
+    },
+    {
+      "key": "moe-mshu-2017:B5.设计",
+      "code": "B5.设计"
+    },
+    {
+      "key": "moe-mshu-2017:B6.工艺",
+      "code": "B6.工艺"
+    },
+    {
+      "key": "moe-mshu-2017:B7.现代媒体艺术",
+      "code": "B7.现代媒体艺术"
+    }
+  ]
+}

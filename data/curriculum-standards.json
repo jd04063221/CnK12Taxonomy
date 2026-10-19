@@ -12,6 +12,7 @@
     "moe-ld-2022",
     "moe-ls-2017",
     "moe-ls-2022",
+    "moe-mshu-2017",
     "moe-sw-2017",
     "moe-sw-2022",
     "moe-sx-2017",
@@ -22,15 +23,15 @@
     "moe-wl-2022",
     "moe-xxkj-2017",
     "moe-xxkj-2022",
-    "moe-ys-2017",
     "moe-ys-2022",
     "moe-yw-2017",
     "moe-yw-2022",
     "moe-yy-2017",
     "moe-yy-2022",
+    "moe-yyue-2017",
     "moe-zz-2017"
   ],
-  "curriculumCount": 28,
+  "curriculumCount": 29,
   "curricula": [
     {
       "slug": "moe-df-2022",
@@ -741,6 +742,46 @@
       "topicCount": 7
     },
     {
+      "slug": "moe-mshu-2017",
+      "country": "CN",
+      "name": "普通高中美术课程标准（2017年版2025年修订）",
+      "version": "2017/2025",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html",
+      "textIncluded": false,
+      "license": "© 中华人民共和国教育部. Codes and publicly known module / domain / theme titles only; verbatim 课标 text omitted.",
+      "topics": [
+        {
+          "key": "moe-mshu-2017:B1.美术鉴赏",
+          "code": "B1.美术鉴赏"
+        },
+        {
+          "key": "moe-mshu-2017:B2.绘画",
+          "code": "B2.绘画"
+        },
+        {
+          "key": "moe-mshu-2017:B3.中国书画",
+          "code": "B3.中国书画"
+        },
+        {
+          "key": "moe-mshu-2017:B4.雕塑",
+          "code": "B4.雕塑"
+        },
+        {
+          "key": "moe-mshu-2017:B5.设计",
+          "code": "B5.设计"
+        },
+        {
+          "key": "moe-mshu-2017:B6.工艺",
+          "code": "B6.工艺"
+        },
+        {
+          "key": "moe-mshu-2017:B7.现代媒体艺术",
+          "code": "B7.现代媒体艺术"
+        }
+      ],
+      "topicCount": 7
+    },
+    {
       "slug": "moe-sw-2017",
       "country": "CN",
       "name": "普通高中生物学课程标准（2017年版2020年修订）",
@@ -1397,34 +1438,6 @@
       "topicCount": 19
     },
     {
-      "slug": "moe-ys-2017",
-      "country": "CN",
-      "name": "普通高中艺术课程标准（2017年版2020年修订）",
-      "version": "2017/2020",
-      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html",
-      "textIncluded": false,
-      "license": "© 中华人民共和国教育部. Codes and publicly known art-form titles only; verbatim 课标 text omitted.",
-      "topics": [
-        {
-          "key": "moe-ys-2017:MU",
-          "code": "MU"
-        },
-        {
-          "key": "moe-ys-2017:FA",
-          "code": "FA"
-        },
-        {
-          "key": "moe-ys-2017:INT",
-          "code": "INT"
-        },
-        {
-          "key": "moe-ys-2017:AP",
-          "code": "AP"
-        }
-      ],
-      "topicCount": 4
-    },
-    {
       "slug": "moe-ys-2022",
       "country": "CN",
       "name": "义务教育艺术课程标准（2022年版）",
@@ -1883,6 +1896,66 @@
         }
       ],
       "topicCount": 31
+    },
+    {
+      "slug": "moe-yyue-2017",
+      "country": "CN",
+      "name": "普通高中音乐课程标准（2017年版2025年修订）",
+      "version": "2017/2025",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A26/s8001/202006/t20200603_462199.html",
+      "textIncluded": false,
+      "license": "© 中华人民共和国教育部. Codes and publicly known module / domain / theme titles only; verbatim 课标 text omitted.",
+      "topics": [
+        {
+          "key": "moe-yyue-2017:B1.音乐鉴赏",
+          "code": "B1.音乐鉴赏"
+        },
+        {
+          "key": "moe-yyue-2017:B2.歌唱",
+          "code": "B2.歌唱"
+        },
+        {
+          "key": "moe-yyue-2017:B3.演奏",
+          "code": "B3.演奏"
+        },
+        {
+          "key": "moe-yyue-2017:B4.音乐编创",
+          "code": "B4.音乐编创"
+        },
+        {
+          "key": "moe-yyue-2017:B5.音乐与舞蹈",
+          "code": "B5.音乐与舞蹈"
+        },
+        {
+          "key": "moe-yyue-2017:B6.音乐与戏剧",
+          "code": "B6.音乐与戏剧"
+        },
+        {
+          "key": "moe-yyue-2017:X1.合唱",
+          "code": "X1.合唱"
+        },
+        {
+          "key": "moe-yyue-2017:X2.合奏",
+          "code": "X2.合奏"
+        },
+        {
+          "key": "moe-yyue-2017:X3.舞蹈表演",
+          "code": "X3.舞蹈表演"
+        },
+        {
+          "key": "moe-yyue-2017:X4.戏剧表演",
+          "code": "X4.戏剧表演"
+        },
+        {
+          "key": "moe-yyue-2017:X5.音乐基础理论",
+          "code": "X5.音乐基础理论"
+        },
+        {
+          "key": "moe-yyue-2017:X6.视唱练耳",
+          "code": "X6.视唱练耳"
+        }
+      ],
+      "topicCount": 12
     },
     {
       "slug": "moe-zz-2017",
