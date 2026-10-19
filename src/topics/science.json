@@ -1282,12 +1282,12 @@
     "type": "CONCEPTUAL",
     "subject": "科学",
     "domain": "物质科学",
-    "gradeStart": 5,
-    "gradeEnd": 6,
+    "gradeStart": 3,
+    "gradeEnd": 3,
     "name": "物质的三态",
     "nameEn": "States of matter",
     "standards": [
-      "moe-kx-2022:C01.S3"
+      "moe-kx-2022:C01.S2"
     ],
     "description": "能用粒子模型初步解释固液气三态及熔化、汽化等变化。",
     "evidence": [
