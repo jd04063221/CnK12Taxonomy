@@ -23,20 +23,20 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1251958,
-      "sha256": "00f3cd5eee954e5300a692f09cb7fa81ef08ca5fff342601eaa3f745c778d604"
+      "bytes": 1251945,
+      "sha256": "797bd233989d12ed529088e3e8592be8daf56bc48615406ad769b0349d4e01be"
     },
     "dependencies.json": {
       "bytes": 679295,
-      "sha256": "dded62c1d70915f82945a85e740a99a32d5842355f64b5c885a5be0c66170ad3"
+      "sha256": "7fca8acfe6def0408b0866e080cc5ddaec0b9d1cfd513ce9a9b2f0962719d7bb"
     },
     "curriculum-standards.json": {
       "bytes": 52154,
       "sha256": "4458f0b7b2444123da79cadc11b0ad9331d977d6d8ba806833a57a88c3832e12"
     },
     "clusters.json": {
-      "bytes": 125007,
-      "sha256": "d9230006f9095bd846ac4cc22384b89d1f30a799ce35b3dc33575f1ae44cb9a3"
+      "bytes": 125001,
+      "sha256": "5b27fa74c68679724cb54852491c26e545dae346c1088420ee7fe605f8ecbb9a"
     }
   }
 }
