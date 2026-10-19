@@ -5,6 +5,8 @@
   "edgeCount": 2859,
   "clusterCount": 242,
   "standardCount": 404,
+  "curricula": 29,
+  "topicStandardLinks": 1660,
   "subjects": {
     "艺术": 98,
     "生物学": 36,
@@ -21,6 +23,12 @@
     "物理": 75,
     "科学": 140
   },
+  "excluded": [
+    "verbatim 课标 text (governed by the MOE; not relicensed here)",
+    "semantic embeddings",
+    "per-child data (PII)",
+    "日语/俄语 topics"
+  ],
   "files": {
     "topics.json": {
       "bytes": 1289336,

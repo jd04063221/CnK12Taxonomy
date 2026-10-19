@@ -267,6 +267,8 @@ for (const [name, obj] of Object.entries(out)) {
 const subjectCounts = {};
 for (const t of topics) subjectCounts[t.subject] = (subjectCounts[t.subject] ?? 0) + 1;
 
+const topicStandardLinks = topics.reduce((n, t) => n + t.standards.length, 0);
+
 const manifest = {
   version: VERSION,
   generated: '2026-08-13',
@@ -274,7 +276,15 @@ const manifest = {
   edgeCount: dependencies.length,
   clusterCount: clusters.length,
   standardCount: curricula.reduce((n, c) => n + c.topics.length, 0),
+  curricula: curricula.length,
+  topicStandardLinks,
   subjects: subjectCounts,
+  excluded: [
+    'verbatim 课标 text (governed by the MOE; not relicensed here)',
+    'semantic embeddings',
+    'per-child data (PII)',
+    '日语/俄语 topics',
+  ],
   files,
 };
 writeFileSync(join(DATA, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
