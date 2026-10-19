@@ -28,6 +28,11 @@ check(topics.topicCount === topics.topics.length, `topics: topicCount ${topics.t
 check(deps.edgeCount === deps.dependencies.length, `dependencies: edgeCount ${deps.edgeCount} != ${deps.dependencies.length}`);
 check(standards.curriculumCount === standards.curricula.length, `curricula: curriculumCount != length`);
 check(clusters.clusterCount === clusters.clusters.length, `clusters: clusterCount != length`);
+check(manifest.curricula === standards.curricula.length, `manifest curricula ${manifest.curricula} != ${standards.curricula.length}`);
+check(
+  manifest.topicStandardLinks === topics.topics.reduce((n, t) => n + t.standards.length, 0),
+  `manifest topicStandardLinks mismatch`,
+);
 check(topics.topics.length >= 1400, `v0.3 target is ≥1400 topics, got ${topics.topics.length}`);
 check(deps.dependencies.length >= 2500, `v0.3 target is ≥2500 edges, got ${deps.dependencies.length}`);
 
