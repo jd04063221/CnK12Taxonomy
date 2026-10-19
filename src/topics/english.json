@@ -2212,5 +2212,59 @@
       "保存一稿和修改稿并标出三处改动",
       "针对时态错误列出一条检查步骤"
     ]
+  },
+  {
+    "id": "mt_english_s2_modal_verbs",
+    "type": "LANGUAGE",
+    "subject": "英语",
+    "domain": "语音词汇语法",
+    "gradeStart": 4,
+    "gradeEnd": 4,
+    "name": "情态动词 can / must / should",
+    "nameEn": "Modal verbs",
+    "standards": [
+      "moe-yy-2022:LK.L1.语法"
+    ],
+    "description": "知道 can 表示能力或许可、must 表示必须、should 表示建议，能选用合适的情态动词表达。",
+    "evidence": [
+      "用can说出自己会做的一件事",
+      "用should给同伴提一条健康建议"
+    ]
+  },
+  {
+    "id": "mt_english_s3_present_continuous",
+    "type": "LANGUAGE",
+    "subject": "英语",
+    "domain": "语音词汇语法",
+    "gradeStart": 5,
+    "gradeEnd": 6,
+    "name": "现在进行时",
+    "nameEn": "Present continuous",
+    "standards": [
+      "moe-yy-2022:LK.L2.语法"
+    ],
+    "description": "知道现在进行时由 be + 动词-ing 构成，用来描述现在正在发生的动作。",
+    "evidence": [
+      "看图用现在进行时描述同学们在做什么",
+      "把一句一般现在时改成正在进行的句子"
+    ]
+  },
+  {
+    "id": "mt_english_s3_future_plans",
+    "type": "LANGUAGE",
+    "subject": "英语",
+    "domain": "语音词汇语法",
+    "gradeStart": 6,
+    "gradeEnd": 6,
+    "name": "一般将来时（be going to / will）",
+    "nameEn": "Future tense",
+    "standards": [
+      "moe-yy-2022:LK.L2.语法"
+    ],
+    "description": "能用 be going to 和 will 谈论打算与预测，知道两者常见的不同使用场合。",
+    "evidence": [
+      "用be going to说出自己的周末计划",
+      "用will对明天的天气作一次预测"
+    ]
   }
 ]

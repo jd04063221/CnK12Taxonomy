@@ -1,7 +1,7 @@
 {
   "version": "0.3.2",
   "note": "topicId depends on prerequisiteId. Auto-wired within (subject, domain) by grade, plus src/dependencies extras.",
-  "edgeCount": 2777,
+  "edgeCount": 2859,
   "dependencies": [
     {
       "topicId": "mt_math_s2_rectangle_area",
@@ -4174,16 +4174,28 @@
       "reason": "同领域隔项准备：「家庭成员词汇」支撑「名词复数加s」。"
     },
     {
-      "topicId": "mt_english_s3_comparative_adjectives",
+      "topicId": "mt_english_s2_modal_verbs",
       "prerequisiteId": "mt_english_s2_plural_nouns_s",
-      "strength": "hard",
-      "reason": "同领域递进：先掌握「名词复数加s」，再学习「形容词比较级」。"
+      "strength": "soft",
+      "reason": "同领域相邻：「名词复数加s」为「情态动词 can / must / should」提供准备。"
+    },
+    {
+      "topicId": "mt_english_s2_modal_verbs",
+      "prerequisiteId": "mt_english_s2_phonics_short_vowels",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「短元音拼读」支撑「情态动词 can / must / should」。"
     },
     {
       "topicId": "mt_english_s3_comparative_adjectives",
-      "prerequisiteId": "mt_english_s2_phonics_short_vowels",
+      "prerequisiteId": "mt_english_s2_modal_verbs",
+      "strength": "hard",
+      "reason": "同领域递进：先掌握「情态动词 can / must / should」，再学习「形容词比较级」。"
+    },
+    {
+      "topicId": "mt_english_s3_comparative_adjectives",
+      "prerequisiteId": "mt_english_s2_plural_nouns_s",
       "strength": "soft",
-      "reason": "同领域隔项准备：「短元音拼读」支撑「形容词比较级」。"
+      "reason": "同领域隔项准备：「名词复数加s」支撑「形容词比较级」。"
     },
     {
       "topicId": "mt_english_s3_past_simple_regular",
@@ -4193,9 +4205,9 @@
     },
     {
       "topicId": "mt_english_s3_past_simple_regular",
-      "prerequisiteId": "mt_english_s2_plural_nouns_s",
+      "prerequisiteId": "mt_english_s2_modal_verbs",
       "strength": "soft",
-      "reason": "同领域隔项准备：「名词复数加s」支撑「一般过去时规则变化」。"
+      "reason": "同领域隔项准备：「情态动词 can / must / should」支撑「一般过去时规则变化」。"
     },
     {
       "topicId": "mt_english_s3_phonics_long_vowels",
@@ -4222,16 +4234,28 @@
       "reason": "同领域隔项准备：「一般过去时规则变化」支撑「方位介词」。"
     },
     {
-      "topicId": "mt_english_s3_present_simple_habits",
+      "topicId": "mt_english_s3_present_continuous",
       "prerequisiteId": "mt_english_s3_prepositions_place",
       "strength": "soft",
-      "reason": "同领域相邻：「方位介词」为「一般现在时」提供准备。"
+      "reason": "同领域相邻：「方位介词」为「现在进行时」提供准备。"
+    },
+    {
+      "topicId": "mt_english_s3_present_continuous",
+      "prerequisiteId": "mt_english_s3_phonics_long_vowels",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「长元音拼读」支撑「现在进行时」。"
     },
     {
       "topicId": "mt_english_s3_present_simple_habits",
-      "prerequisiteId": "mt_english_s3_phonics_long_vowels",
+      "prerequisiteId": "mt_english_s3_present_continuous",
       "strength": "soft",
-      "reason": "同领域隔项准备：「长元音拼读」支撑「一般现在时」。"
+      "reason": "同领域相邻：「现在进行时」为「一般现在时」提供准备。"
+    },
+    {
+      "topicId": "mt_english_s3_present_simple_habits",
+      "prerequisiteId": "mt_english_s3_prepositions_place",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「方位介词」支撑「一般现在时」。"
     },
     {
       "topicId": "mt_english_s3_superlative_adjectives",
@@ -4241,9 +4265,9 @@
     },
     {
       "topicId": "mt_english_s3_superlative_adjectives",
-      "prerequisiteId": "mt_english_s3_prepositions_place",
+      "prerequisiteId": "mt_english_s3_present_continuous",
       "strength": "soft",
-      "reason": "同领域隔项准备：「方位介词」支撑「形容词最高级」。"
+      "reason": "同领域隔项准备：「现在进行时」支撑「形容词最高级」。"
     },
     {
       "topicId": "mt_english_s3_word_families",
@@ -4258,16 +4282,28 @@
       "reason": "同领域隔项准备：「一般现在时」支撑「词族与词缀」。"
     },
     {
-      "topicId": "mt_english_s4_conditional_sentences",
+      "topicId": "mt_english_s3_future_plans",
       "prerequisiteId": "mt_english_s3_word_families",
-      "strength": "hard",
-      "reason": "同领域递进：先掌握「词族与词缀」，再学习「条件状语从句」。"
+      "strength": "soft",
+      "reason": "同领域相邻：「词族与词缀」为「一般将来时（be going to / will）」提供准备。"
+    },
+    {
+      "topicId": "mt_english_s3_future_plans",
+      "prerequisiteId": "mt_english_s3_superlative_adjectives",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「形容词最高级」支撑「一般将来时（be going to / will）」。"
     },
     {
       "topicId": "mt_english_s4_conditional_sentences",
-      "prerequisiteId": "mt_english_s3_superlative_adjectives",
+      "prerequisiteId": "mt_english_s3_future_plans",
+      "strength": "hard",
+      "reason": "同领域递进：先掌握「一般将来时（be going to / will）」，再学习「条件状语从句」。"
+    },
+    {
+      "topicId": "mt_english_s4_conditional_sentences",
+      "prerequisiteId": "mt_english_s3_word_families",
       "strength": "soft",
-      "reason": "同领域隔项准备：「形容词最高级」支撑「条件状语从句」。"
+      "reason": "同领域隔项准备：「词族与词缀」支撑「条件状语从句」。"
     },
     {
       "topicId": "mt_english_s4_discourse_cohesion",
@@ -4277,9 +4313,9 @@
     },
     {
       "topicId": "mt_english_s4_discourse_cohesion",
-      "prerequisiteId": "mt_english_s3_word_families",
+      "prerequisiteId": "mt_english_s3_future_plans",
       "strength": "soft",
-      "reason": "同领域隔项准备：「词族与词缀」支撑「语篇衔接」。"
+      "reason": "同领域隔项准备：「一般将来时（be going to / will）」支撑「语篇衔接」。"
     },
     {
       "topicId": "mt_english_s4_modal_verbs",
@@ -9292,16 +9328,52 @@
       "reason": "同领域隔项准备：「十位与个位」支撑「100以内数的大小比较」。"
     },
     {
-      "topicId": "mt_math_s1_estimate_within_100",
+      "topicId": "mt_math_s1_division_meaning",
       "prerequisiteId": "mt_math_s1_compare_within_100",
       "strength": "soft",
-      "reason": "同领域相邻：「100以内数的大小比较」为「100以内估算」提供准备。"
+      "reason": "同领域相邻：「100以内数的大小比较」为「除法的意义（平均分）」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_division_meaning",
+      "prerequisiteId": "mt_math_s1_add_within_100",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「100以内加法」支撑「除法的意义（平均分）」。"
+    },
+    {
+      "topicId": "mt_math_s1_division_quotient_7_to_9",
+      "prerequisiteId": "mt_math_s1_division_meaning",
+      "strength": "soft",
+      "reason": "同领域相邻：「除法的意义（平均分）」为「用7~9的乘法口诀求商」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_division_quotient_7_to_9",
+      "prerequisiteId": "mt_math_s1_compare_within_100",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「100以内数的大小比较」支撑「用7~9的乘法口诀求商」。"
+    },
+    {
+      "topicId": "mt_math_s1_division_quotient_within_6",
+      "prerequisiteId": "mt_math_s1_division_quotient_7_to_9",
+      "strength": "soft",
+      "reason": "同领域相邻：「用7~9的乘法口诀求商」为「用1~6的乘法口诀求商」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_division_quotient_within_6",
+      "prerequisiteId": "mt_math_s1_division_meaning",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「除法的意义（平均分）」支撑「用1~6的乘法口诀求商」。"
     },
     {
       "topicId": "mt_math_s1_estimate_within_100",
-      "prerequisiteId": "mt_math_s1_add_within_100",
+      "prerequisiteId": "mt_math_s1_division_quotient_within_6",
       "strength": "soft",
-      "reason": "同领域隔项准备：「100以内加法」支撑「100以内估算」。"
+      "reason": "同领域相邻：「用1~6的乘法口诀求商」为「100以内估算」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_estimate_within_100",
+      "prerequisiteId": "mt_math_s1_division_quotient_7_to_9",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「用7~9的乘法口诀求商」支撑「100以内估算」。"
     },
     {
       "topicId": "mt_math_s1_even_odd",
@@ -9311,9 +9383,9 @@
     },
     {
       "topicId": "mt_math_s1_even_odd",
-      "prerequisiteId": "mt_math_s1_compare_within_100",
+      "prerequisiteId": "mt_math_s1_division_quotient_within_6",
       "strength": "soft",
-      "reason": "同领域隔项准备：「100以内数的大小比较」支撑「奇数与偶数」。"
+      "reason": "同领域隔项准备：「用1~6的乘法口诀求商」支撑「奇数与偶数」。"
     },
     {
       "topicId": "mt_math_s1_length_compare_add",
@@ -9328,16 +9400,28 @@
       "reason": "同领域隔项准备：「100以内估算」支撑「与长度有关的加减」。"
     },
     {
-      "topicId": "mt_math_s1_repeated_add_preview",
+      "topicId": "mt_math_s1_multiplication_meaning",
       "prerequisiteId": "mt_math_s1_length_compare_add",
       "strength": "soft",
-      "reason": "同领域相邻：「与长度有关的加减」为「相同加数连加」提供准备。"
+      "reason": "同领域相邻：「与长度有关的加减」为「乘法的意义」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_multiplication_meaning",
+      "prerequisiteId": "mt_math_s1_even_odd",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「奇数与偶数」支撑「乘法的意义」。"
     },
     {
       "topicId": "mt_math_s1_repeated_add_preview",
-      "prerequisiteId": "mt_math_s1_even_odd",
+      "prerequisiteId": "mt_math_s1_multiplication_meaning",
       "strength": "soft",
-      "reason": "同领域隔项准备：「奇数与偶数」支撑「相同加数连加」。"
+      "reason": "同领域相邻：「乘法的意义」为「相同加数连加」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_repeated_add_preview",
+      "prerequisiteId": "mt_math_s1_length_compare_add",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「与长度有关的加减」支撑「相同加数连加」。"
     },
     {
       "topicId": "mt_math_s1_skip_count_2_5_10",
@@ -9347,9 +9431,9 @@
     },
     {
       "topicId": "mt_math_s1_skip_count_2_5_10",
-      "prerequisiteId": "mt_math_s1_length_compare_add",
+      "prerequisiteId": "mt_math_s1_multiplication_meaning",
       "strength": "soft",
-      "reason": "同领域隔项准备：「与长度有关的加减」支撑「按2、5、10跳着数」。"
+      "reason": "同领域隔项准备：「乘法的意义」支撑「按2、5、10跳着数」。"
     },
     {
       "topicId": "mt_math_s1_sub_within_100",
@@ -9364,16 +9448,40 @@
       "reason": "同领域隔项准备：「相同加数连加」支撑「100以内减法」。"
     },
     {
-      "topicId": "mt_math_s2_divide_with_remainder",
+      "topicId": "mt_math_s1_times_as_many",
       "prerequisiteId": "mt_math_s1_sub_within_100",
       "strength": "soft",
-      "reason": "同领域相邻：「100以内减法」为「有余数的除法」提供准备。"
+      "reason": "同领域相邻：「100以内减法」为「倍的认识」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_times_as_many",
+      "prerequisiteId": "mt_math_s1_skip_count_2_5_10",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「按2、5、10跳着数」支撑「倍的认识」。"
+    },
+    {
+      "topicId": "mt_math_s1_times_problems",
+      "prerequisiteId": "mt_math_s1_times_as_many",
+      "strength": "soft",
+      "reason": "同领域相邻：「倍的认识」为「求一个数的几倍是多少」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s1_times_problems",
+      "prerequisiteId": "mt_math_s1_sub_within_100",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「100以内减法」支撑「求一个数的几倍是多少」。"
     },
     {
       "topicId": "mt_math_s2_divide_with_remainder",
-      "prerequisiteId": "mt_math_s1_skip_count_2_5_10",
+      "prerequisiteId": "mt_math_s1_times_problems",
       "strength": "soft",
-      "reason": "同领域隔项准备：「按2、5、10跳着数」支撑「有余数的除法」。"
+      "reason": "同领域相邻：「求一个数的几倍是多少」为「有余数的除法」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_divide_with_remainder",
+      "prerequisiteId": "mt_math_s1_times_as_many",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「倍的认识」支撑「有余数的除法」。"
     },
     {
       "topicId": "mt_math_s2_multiply_table",
@@ -9383,9 +9491,9 @@
     },
     {
       "topicId": "mt_math_s2_multiply_table",
-      "prerequisiteId": "mt_math_s1_sub_within_100",
+      "prerequisiteId": "mt_math_s1_times_problems",
       "strength": "soft",
-      "reason": "同领域隔项准备：「100以内减法」支撑「乘法口诀」。"
+      "reason": "同领域隔项准备：「求一个数的几倍是多少」支撑「乘法口诀」。"
     },
     {
       "topicId": "mt_math_s2_place_value_thousands",
@@ -9592,40 +9700,112 @@
       "reason": "同领域隔项准备：「分数的意义」支撑「加法交换律与结合律」。"
     },
     {
-      "topicId": "mt_math_s2_distributive_intro",
+      "topicId": "mt_math_s2_decimal_property_point",
       "prerequisiteId": "mt_math_s2_commutative_assoc",
       "strength": "soft",
-      "reason": "同领域相邻：「加法交换律与结合律」为「乘法分配律初步」提供准备。"
+      "reason": "同领域相邻：「加法交换律与结合律」为「小数的性质与小数点移动」提供准备。"
     },
     {
-      "topicId": "mt_math_s2_distributive_intro",
+      "topicId": "mt_math_s2_decimal_property_point",
       "prerequisiteId": "mt_math_s2_quantity_bar_model",
       "strength": "soft",
-      "reason": "同领域隔项准备：「条形图表示数量关系」支撑「乘法分配律初步」。"
+      "reason": "同领域隔项准备：「条形图表示数量关系」支撑「小数的性质与小数点移动」。"
     },
     {
-      "topicId": "mt_math_s3_decimal_add_sub",
-      "prerequisiteId": "mt_math_s2_distributive_intro",
+      "topicId": "mt_math_s2_decimal_unit_round",
+      "prerequisiteId": "mt_math_s2_decimal_property_point",
       "strength": "soft",
-      "reason": "同领域相邻：「乘法分配律初步」为「小数加减法」提供准备。"
+      "reason": "同领域相邻：「小数的性质与小数点移动」为「小数与单位换算、求近似数」提供准备。"
     },
     {
-      "topicId": "mt_math_s3_decimal_add_sub",
+      "topicId": "mt_math_s2_decimal_unit_round",
       "prerequisiteId": "mt_math_s2_commutative_assoc",
       "strength": "soft",
-      "reason": "同领域隔项准备：「加法交换律与结合律」支撑「小数加减法」。"
+      "reason": "同领域隔项准备：「加法交换律与结合律」支撑「小数与单位换算、求近似数」。"
+    },
+    {
+      "topicId": "mt_math_s2_distributive_intro",
+      "prerequisiteId": "mt_math_s2_decimal_unit_round",
+      "strength": "soft",
+      "reason": "同领域相邻：「小数与单位换算、求近似数」为「乘法分配律初步」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_distributive_intro",
+      "prerequisiteId": "mt_math_s2_decimal_property_point",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「小数的性质与小数点移动」支撑「乘法分配律初步」。"
+    },
+    {
+      "topicId": "mt_math_s2_mult_div_parts",
+      "prerequisiteId": "mt_math_s2_distributive_intro",
+      "strength": "soft",
+      "reason": "同领域相邻：「乘法分配律初步」为「乘、除法的意义和各部分间的关系」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_mult_div_parts",
+      "prerequisiteId": "mt_math_s2_decimal_unit_round",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「小数与单位换算、求近似数」支撑「乘、除法的意义和各部分间的关系」。"
+    },
+    {
+      "topicId": "mt_math_s2_multiply_two_by_two",
+      "prerequisiteId": "mt_math_s2_mult_div_parts",
+      "strength": "soft",
+      "reason": "同领域相邻：「乘、除法的意义和各部分间的关系」为「两位数乘两位数」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_multiply_two_by_two",
+      "prerequisiteId": "mt_math_s2_distributive_intro",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「乘法分配律初步」支撑「两位数乘两位数」。"
+    },
+    {
+      "topicId": "mt_math_s2_price_speed_model",
+      "prerequisiteId": "mt_math_s2_multiply_two_by_two",
+      "strength": "soft",
+      "reason": "同领域相邻：「两位数乘两位数」为「加法模型与乘法模型」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_price_speed_model",
+      "prerequisiteId": "mt_math_s2_mult_div_parts",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「乘、除法的意义和各部分间的关系」支撑「加法模型与乘法模型」。"
+    },
+    {
+      "topicId": "mt_math_s3_decimal_add_sub",
+      "prerequisiteId": "mt_math_s2_price_speed_model",
+      "strength": "soft",
+      "reason": "同领域相邻：「加法模型与乘法模型」为「小数加减法」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_decimal_add_sub",
+      "prerequisiteId": "mt_math_s2_multiply_two_by_two",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「两位数乘两位数」支撑「小数加减法」。"
+    },
+    {
+      "topicId": "mt_math_s3_cycle_decimal",
+      "prerequisiteId": "mt_math_s3_decimal_add_sub",
+      "strength": "hard",
+      "reason": "同领域递进：先掌握「小数加减法」，再学习「循环小数」。"
+    },
+    {
+      "topicId": "mt_math_s3_cycle_decimal",
+      "prerequisiteId": "mt_math_s2_price_speed_model",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「加法模型与乘法模型」支撑「循环小数」。"
+    },
+    {
+      "topicId": "mt_math_s3_decimal_fraction_convert",
+      "prerequisiteId": "mt_math_s3_cycle_decimal",
+      "strength": "soft",
+      "reason": "同领域相邻：「循环小数」为「小数与分数互化」提供准备。"
     },
     {
       "topicId": "mt_math_s3_decimal_fraction_convert",
       "prerequisiteId": "mt_math_s3_decimal_add_sub",
-      "strength": "hard",
-      "reason": "同领域递进：先掌握「小数加减法」，再学习「小数与分数互化」。"
-    },
-    {
-      "topicId": "mt_math_s3_decimal_fraction_convert",
-      "prerequisiteId": "mt_math_s2_distributive_intro",
       "strength": "soft",
-      "reason": "同领域隔项准备：「乘法分配律初步」支撑「小数与分数互化」。"
+      "reason": "同领域隔项准备：「小数加减法」支撑「小数与分数互化」。"
     },
     {
       "topicId": "mt_math_s3_factors_multiples",
@@ -9635,33 +9815,81 @@
     },
     {
       "topicId": "mt_math_s3_factors_multiples",
-      "prerequisiteId": "mt_math_s3_decimal_add_sub",
+      "prerequisiteId": "mt_math_s3_cycle_decimal",
       "strength": "soft",
-      "reason": "同领域隔项准备：「小数加减法」支撑「因数与倍数」。"
+      "reason": "同领域隔项准备：「循环小数」支撑「因数与倍数」。"
     },
     {
-      "topicId": "mt_math_s3_prime_composite",
+      "topicId": "mt_math_s3_fraction_basic_property",
       "prerequisiteId": "mt_math_s3_factors_multiples",
       "strength": "soft",
-      "reason": "同领域相邻：「因数与倍数」为「质数与合数」提供准备。"
+      "reason": "同领域相邻：「因数与倍数」为「分数的基本性质、约分与通分」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_fraction_basic_property",
+      "prerequisiteId": "mt_math_s3_decimal_fraction_convert",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「小数与分数互化」支撑「分数的基本性质、约分与通分」。"
+    },
+    {
+      "topicId": "mt_math_s3_fraction_division_relation",
+      "prerequisiteId": "mt_math_s3_fraction_basic_property",
+      "strength": "soft",
+      "reason": "同领域相邻：「分数的基本性质、约分与通分」为「分数与除法的关系」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_fraction_division_relation",
+      "prerequisiteId": "mt_math_s3_factors_multiples",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「因数与倍数」支撑「分数与除法的关系」。"
+    },
+    {
+      "topicId": "mt_math_s3_multiples_2_5_3",
+      "prerequisiteId": "mt_math_s3_fraction_division_relation",
+      "strength": "soft",
+      "reason": "同领域相邻：「分数与除法的关系」为「2、5、3的倍数特征」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_multiples_2_5_3",
+      "prerequisiteId": "mt_math_s3_fraction_basic_property",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「分数的基本性质、约分与通分」支撑「2、5、3的倍数特征」。"
     },
     {
       "topicId": "mt_math_s3_prime_composite",
-      "prerequisiteId": "mt_math_s3_decimal_fraction_convert",
+      "prerequisiteId": "mt_math_s3_multiples_2_5_3",
       "strength": "soft",
-      "reason": "同领域隔项准备：「小数与分数互化」支撑「质数与合数」。"
+      "reason": "同领域相邻：「2、5、3的倍数特征」为「质数与合数」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_prime_composite",
+      "prerequisiteId": "mt_math_s3_fraction_division_relation",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「分数与除法的关系」支撑「质数与合数」。"
+    },
+    {
+      "topicId": "mt_math_s3_proper_improper",
+      "prerequisiteId": "mt_math_s3_prime_composite",
+      "strength": "soft",
+      "reason": "同领域相邻：「质数与合数」为「真分数、假分数与带分数」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_proper_improper",
+      "prerequisiteId": "mt_math_s3_multiples_2_5_3",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「2、5、3的倍数特征」支撑「真分数、假分数与带分数」。"
+    },
+    {
+      "topicId": "mt_math_s3_decimal_divide",
+      "prerequisiteId": "mt_math_s3_proper_improper",
+      "strength": "soft",
+      "reason": "同领域相邻：「真分数、假分数与带分数」为「小数除法」提供准备。"
     },
     {
       "topicId": "mt_math_s3_decimal_divide",
       "prerequisiteId": "mt_math_s3_prime_composite",
       "strength": "soft",
-      "reason": "同领域相邻：「质数与合数」为「小数除法」提供准备。"
-    },
-    {
-      "topicId": "mt_math_s3_decimal_divide",
-      "prerequisiteId": "mt_math_s3_factors_multiples",
-      "strength": "soft",
-      "reason": "同领域隔项准备：「因数与倍数」支撑「小数除法」。"
+      "reason": "同领域隔项准备：「质数与合数」支撑「小数除法」。"
     },
     {
       "topicId": "mt_math_s3_decimal_multiply",
@@ -9671,9 +9899,9 @@
     },
     {
       "topicId": "mt_math_s3_decimal_multiply",
-      "prerequisiteId": "mt_math_s3_prime_composite",
+      "prerequisiteId": "mt_math_s3_proper_improper",
       "strength": "soft",
-      "reason": "同领域隔项准备：「质数与合数」支撑「小数乘法」。"
+      "reason": "同领域隔项准备：「真分数、假分数与带分数」支撑「小数乘法」。"
     },
     {
       "topicId": "mt_math_s3_fraction_add_diff",
@@ -9796,16 +10024,28 @@
       "reason": "同领域隔项准备：「正比例的表与图」支撑「用字母表示数」。"
     },
     {
-      "topicId": "mt_math_s3_percent_convert",
+      "topicId": "mt_math_s3_negative_number",
       "prerequisiteId": "mt_math_s3_letter_for_number",
       "strength": "soft",
-      "reason": "同领域相邻：「用字母表示数」为「百分数与分数小数互化」提供准备。"
+      "reason": "同领域相邻：「用字母表示数」为「负数的认识」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_negative_number",
+      "prerequisiteId": "mt_math_s3_fraction_divide",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「分数除法」支撑「负数的认识」。"
     },
     {
       "topicId": "mt_math_s3_percent_convert",
-      "prerequisiteId": "mt_math_s3_fraction_divide",
+      "prerequisiteId": "mt_math_s3_negative_number",
       "strength": "soft",
-      "reason": "同领域隔项准备：「分数除法」支撑「百分数与分数小数互化」。"
+      "reason": "同领域相邻：「负数的认识」为「百分数与分数小数互化」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_percent_convert",
+      "prerequisiteId": "mt_math_s3_letter_for_number",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「用字母表示数」支撑「百分数与分数小数互化」。"
     },
     {
       "topicId": "mt_math_s3_percent_meaning",
@@ -9815,9 +10055,9 @@
     },
     {
       "topicId": "mt_math_s3_percent_meaning",
-      "prerequisiteId": "mt_math_s3_letter_for_number",
+      "prerequisiteId": "mt_math_s3_negative_number",
       "strength": "soft",
-      "reason": "同领域隔项准备：「用字母表示数」支撑「百分数的意义」。"
+      "reason": "同领域隔项准备：「负数的认识」支撑「百分数的意义」。"
     },
     {
       "topicId": "mt_math_s3_percent_problems",
@@ -9868,16 +10108,28 @@
       "reason": "同领域隔项准备：「比的意义」支撑「比的化简与求值」。"
     },
     {
-      "topicId": "mt_math_s4_absolute_value",
+      "topicId": "mt_math_s3_reciprocal",
       "prerequisiteId": "mt_math_s3_ratio_simplify",
-      "strength": "hard",
-      "reason": "同领域递进：先掌握「比的化简与求值」，再学习「绝对值」。"
+      "strength": "soft",
+      "reason": "同领域相邻：「比的化简与求值」为「倒数的认识」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_reciprocal",
+      "prerequisiteId": "mt_math_s3_ratio_scale",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「比例尺」支撑「倒数的认识」。"
     },
     {
       "topicId": "mt_math_s4_absolute_value",
-      "prerequisiteId": "mt_math_s3_ratio_scale",
+      "prerequisiteId": "mt_math_s3_reciprocal",
+      "strength": "hard",
+      "reason": "同领域递进：先掌握「倒数的认识」，再学习「绝对值」。"
+    },
+    {
+      "topicId": "mt_math_s4_absolute_value",
+      "prerequisiteId": "mt_math_s3_ratio_simplify",
       "strength": "soft",
-      "reason": "同领域隔项准备：「比例尺」支撑「绝对值」。"
+      "reason": "同领域隔项准备：「比的化简与求值」支撑「绝对值」。"
     },
     {
       "topicId": "mt_math_s4_algebraic_expression",
@@ -9887,9 +10139,9 @@
     },
     {
       "topicId": "mt_math_s4_algebraic_expression",
-      "prerequisiteId": "mt_math_s3_ratio_simplify",
+      "prerequisiteId": "mt_math_s3_reciprocal",
       "strength": "soft",
-      "reason": "同领域隔项准备：「比的化简与求值」支撑「代数式」。"
+      "reason": "同领域隔项准备：「倒数的认识」支撑「代数式」。"
     },
     {
       "topicId": "mt_math_s4_linear_equation_one",
@@ -10402,28 +10654,52 @@
       "reason": "同领域隔项准备：「认识米」支撑「面积的认识」。"
     },
     {
-      "topicId": "mt_math_s2_perimeter_concept",
+      "topicId": "mt_math_s2_length_units_mm_dm_km",
       "prerequisiteId": "mt_math_s2_area_concept",
       "strength": "soft",
-      "reason": "同领域相邻：「面积的认识」为「周长的认识」提供准备。"
+      "reason": "同领域相邻：「面积的认识」为「毫米、分米与千米」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_length_units_mm_dm_km",
+      "prerequisiteId": "mt_math_s2_angle_recognize",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「角的初步认识」支撑「毫米、分米与千米」。"
     },
     {
       "topicId": "mt_math_s2_perimeter_concept",
-      "prerequisiteId": "mt_math_s2_angle_recognize",
+      "prerequisiteId": "mt_math_s2_length_units_mm_dm_km",
       "strength": "soft",
-      "reason": "同领域隔项准备：「角的初步认识」支撑「周长的认识」。"
+      "reason": "同领域相邻：「毫米、分米与千米」为「周长的认识」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_perimeter_concept",
+      "prerequisiteId": "mt_math_s2_area_concept",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「面积的认识」支撑「周长的认识」。"
+    },
+    {
+      "topicId": "mt_math_s2_segment_ray_line",
+      "prerequisiteId": "mt_math_s2_perimeter_concept",
+      "strength": "soft",
+      "reason": "同领域相邻：「周长的认识」为「线段、射线与直线」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_segment_ray_line",
+      "prerequisiteId": "mt_math_s2_length_units_mm_dm_km",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「毫米、分米与千米」支撑「线段、射线与直线」。"
+    },
+    {
+      "topicId": "mt_math_s2_square_centimetre",
+      "prerequisiteId": "mt_math_s2_segment_ray_line",
+      "strength": "soft",
+      "reason": "同领域相邻：「线段、射线与直线」为「平方厘米与平方分米」提供准备。"
     },
     {
       "topicId": "mt_math_s2_square_centimetre",
       "prerequisiteId": "mt_math_s2_perimeter_concept",
       "strength": "soft",
-      "reason": "同领域相邻：「周长的认识」为「平方厘米与平方分米」提供准备。"
-    },
-    {
-      "topicId": "mt_math_s2_square_centimetre",
-      "prerequisiteId": "mt_math_s2_area_concept",
-      "strength": "soft",
-      "reason": "同领域隔项准备：「面积的认识」支撑「平方厘米与平方分米」。"
+      "reason": "同领域隔项准备：「周长的认识」支撑「平方厘米与平方分米」。"
     },
     {
       "topicId": "mt_math_s2_square_perimeter",
@@ -10433,21 +10709,33 @@
     },
     {
       "topicId": "mt_math_s2_square_perimeter",
-      "prerequisiteId": "mt_math_s2_perimeter_concept",
+      "prerequisiteId": "mt_math_s2_segment_ray_line",
       "strength": "soft",
-      "reason": "同领域隔项准备：「周长的认识」支撑「正方形周长」。"
+      "reason": "同领域隔项准备：「线段、射线与直线」支撑「正方形周长」。"
+    },
+    {
+      "topicId": "mt_math_s2_observe_objects_basic",
+      "prerequisiteId": "mt_math_s2_square_perimeter",
+      "strength": "soft",
+      "reason": "同领域相邻：「正方形周长」为「从不同方向观察物体」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_observe_objects_basic",
+      "prerequisiteId": "mt_math_s2_square_centimetre",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「平方厘米与平方分米」支撑「从不同方向观察物体」。"
+    },
+    {
+      "topicId": "mt_math_s2_rectangle_area",
+      "prerequisiteId": "mt_math_s2_observe_objects_basic",
+      "strength": "soft",
+      "reason": "同领域相邻：「从不同方向观察物体」为「长方形面积」提供准备。"
     },
     {
       "topicId": "mt_math_s2_rectangle_area",
       "prerequisiteId": "mt_math_s2_square_perimeter",
       "strength": "soft",
-      "reason": "同领域相邻：「正方形周长」为「长方形面积」提供准备。"
-    },
-    {
-      "topicId": "mt_math_s2_rectangle_area",
-      "prerequisiteId": "mt_math_s2_square_centimetre",
-      "strength": "soft",
-      "reason": "同领域隔项准备：「平方厘米与平方分米」支撑「长方形面积」。"
+      "reason": "同领域隔项准备：「正方形周长」支撑「长方形面积」。"
     },
     {
       "topicId": "mt_math_s2_rectangle_perimeter",
@@ -10457,9 +10745,9 @@
     },
     {
       "topicId": "mt_math_s2_rectangle_perimeter",
-      "prerequisiteId": "mt_math_s2_square_perimeter",
+      "prerequisiteId": "mt_math_s2_observe_objects_basic",
       "strength": "soft",
-      "reason": "同领域隔项准备：「正方形周长」支撑「长方形周长」。"
+      "reason": "同领域隔项准备：「从不同方向观察物体」支撑「长方形周长」。"
     },
     {
       "topicId": "mt_math_s2_square_area",
@@ -10474,16 +10762,40 @@
       "reason": "同领域隔项准备：「长方形面积」支撑「正方形面积」。"
     },
     {
-      "topicId": "mt_math_s2_right_acute_obtuse",
+      "topicId": "mt_math_s2_parallel_perpendicular",
       "prerequisiteId": "mt_math_s2_square_area",
       "strength": "soft",
-      "reason": "同领域相邻：「正方形面积」为「直角、锐角与钝角」提供准备。"
+      "reason": "同领域相邻：「正方形面积」为「平行与垂直」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_parallel_perpendicular",
+      "prerequisiteId": "mt_math_s2_rectangle_perimeter",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「长方形周长」支撑「平行与垂直」。"
+    },
+    {
+      "topicId": "mt_math_s2_parallelogram_trapezoid",
+      "prerequisiteId": "mt_math_s2_parallel_perpendicular",
+      "strength": "soft",
+      "reason": "同领域相邻：「平行与垂直」为「平行四边形和梯形的认识」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_parallelogram_trapezoid",
+      "prerequisiteId": "mt_math_s2_square_area",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「正方形面积」支撑「平行四边形和梯形的认识」。"
     },
     {
       "topicId": "mt_math_s2_right_acute_obtuse",
-      "prerequisiteId": "mt_math_s2_rectangle_perimeter",
+      "prerequisiteId": "mt_math_s2_parallelogram_trapezoid",
       "strength": "soft",
-      "reason": "同领域隔项准备：「长方形周长」支撑「直角、锐角与钝角」。"
+      "reason": "同领域相邻：「平行四边形和梯形的认识」为「直角、锐角与钝角」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_right_acute_obtuse",
+      "prerequisiteId": "mt_math_s2_parallel_perpendicular",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「平行与垂直」支撑「直角、锐角与钝角」。"
     },
     {
       "topicId": "mt_math_s2_rotation",
@@ -10493,9 +10805,9 @@
     },
     {
       "topicId": "mt_math_s2_rotation",
-      "prerequisiteId": "mt_math_s2_square_area",
+      "prerequisiteId": "mt_math_s2_parallelogram_trapezoid",
       "strength": "soft",
-      "reason": "同领域隔项准备：「正方形面积」支撑「旋转」。"
+      "reason": "同领域隔项准备：「平行四边形和梯形的认识」支撑「旋转」。"
     },
     {
       "topicId": "mt_math_s2_symmetry_axis",
@@ -10522,16 +10834,40 @@
       "reason": "同领域隔项准备：「旋转」支撑「平移」。"
     },
     {
-      "topicId": "mt_math_s3_angle_measure",
+      "topicId": "mt_math_s2_triangle_classification",
       "prerequisiteId": "mt_math_s2_translation",
       "strength": "soft",
-      "reason": "同领域相邻：「平移」为「用量角器量角」提供准备。"
+      "reason": "同领域相邻：「平移」为「三角形的分类」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_triangle_classification",
+      "prerequisiteId": "mt_math_s2_symmetry_axis",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「轴对称图形」支撑「三角形的分类」。"
+    },
+    {
+      "topicId": "mt_math_s2_triangle_three_sides",
+      "prerequisiteId": "mt_math_s2_triangle_classification",
+      "strength": "soft",
+      "reason": "同领域相邻：「三角形的分类」为「三角形三边关系」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_triangle_three_sides",
+      "prerequisiteId": "mt_math_s2_translation",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「平移」支撑「三角形三边关系」。"
     },
     {
       "topicId": "mt_math_s3_angle_measure",
-      "prerequisiteId": "mt_math_s2_symmetry_axis",
+      "prerequisiteId": "mt_math_s2_triangle_three_sides",
       "strength": "soft",
-      "reason": "同领域隔项准备：「轴对称图形」支撑「用量角器量角」。"
+      "reason": "同领域相邻：「三角形三边关系」为「用量角器量角」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_angle_measure",
+      "prerequisiteId": "mt_math_s2_triangle_classification",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「三角形的分类」支撑「用量角器量角」。"
     },
     {
       "topicId": "mt_math_s3_triangle_angle_sum",
@@ -10541,33 +10877,69 @@
     },
     {
       "topicId": "mt_math_s3_triangle_angle_sum",
-      "prerequisiteId": "mt_math_s2_translation",
+      "prerequisiteId": "mt_math_s2_triangle_three_sides",
       "strength": "soft",
-      "reason": "同领域隔项准备：「平移」支撑「三角形内角和」。"
+      "reason": "同领域隔项准备：「三角形三边关系」支撑「三角形内角和」。"
     },
     {
-      "topicId": "mt_math_s3_composite_area",
+      "topicId": "mt_math_s3_capacity_volume",
       "prerequisiteId": "mt_math_s3_triangle_angle_sum",
       "strength": "hard",
-      "reason": "同领域递进：先掌握「三角形内角和」，再学习「组合图形面积」。"
+      "reason": "同领域递进：先掌握「三角形内角和」，再学习「容积与不规则物体的体积」。"
+    },
+    {
+      "topicId": "mt_math_s3_capacity_volume",
+      "prerequisiteId": "mt_math_s3_angle_measure",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「用量角器量角」支撑「容积与不规则物体的体积」。"
     },
     {
       "topicId": "mt_math_s3_composite_area",
-      "prerequisiteId": "mt_math_s3_angle_measure",
+      "prerequisiteId": "mt_math_s3_capacity_volume",
       "strength": "soft",
-      "reason": "同领域隔项准备：「用量角器量角」支撑「组合图形面积」。"
+      "reason": "同领域相邻：「容积与不规则物体的体积」为「组合图形面积」提供准备。"
     },
     {
-      "topicId": "mt_math_s3_trapezoid_area",
-      "prerequisiteId": "mt_math_s3_composite_area",
-      "strength": "soft",
-      "reason": "同领域相邻：「组合图形面积」为「梯形面积」提供准备。"
-    },
-    {
-      "topicId": "mt_math_s3_trapezoid_area",
+      "topicId": "mt_math_s3_composite_area",
       "prerequisiteId": "mt_math_s3_triangle_angle_sum",
       "strength": "soft",
-      "reason": "同领域隔项准备：「三角形内角和」支撑「梯形面积」。"
+      "reason": "同领域隔项准备：「三角形内角和」支撑「组合图形面积」。"
+    },
+    {
+      "topicId": "mt_math_s3_observe_combination",
+      "prerequisiteId": "mt_math_s3_composite_area",
+      "strength": "soft",
+      "reason": "同领域相邻：「组合图形面积」为「观察简单组合体」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_observe_combination",
+      "prerequisiteId": "mt_math_s3_capacity_volume",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「容积与不规则物体的体积」支撑「观察简单组合体」。"
+    },
+    {
+      "topicId": "mt_math_s3_surface_area",
+      "prerequisiteId": "mt_math_s3_observe_combination",
+      "strength": "soft",
+      "reason": "同领域相邻：「观察简单组合体」为「长方体和正方体的表面积」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_surface_area",
+      "prerequisiteId": "mt_math_s3_composite_area",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「组合图形面积」支撑「长方体和正方体的表面积」。"
+    },
+    {
+      "topicId": "mt_math_s3_trapezoid_area",
+      "prerequisiteId": "mt_math_s3_surface_area",
+      "strength": "soft",
+      "reason": "同领域相邻：「长方体和正方体的表面积」为「梯形面积」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_trapezoid_area",
+      "prerequisiteId": "mt_math_s3_observe_combination",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「观察简单组合体」支撑「梯形面积」。"
     },
     {
       "topicId": "mt_math_s3_volume_concept",
@@ -10577,9 +10949,9 @@
     },
     {
       "topicId": "mt_math_s3_volume_concept",
-      "prerequisiteId": "mt_math_s3_composite_area",
+      "prerequisiteId": "mt_math_s3_surface_area",
       "strength": "soft",
-      "reason": "同领域隔项准备：「组合图形面积」支撑「体积的认识」。"
+      "reason": "同领域隔项准备：「长方体和正方体的表面积」支撑「体积的认识」。"
     },
     {
       "topicId": "mt_math_s3_circle_recognize",
@@ -10666,16 +11038,76 @@
       "reason": "同领域隔项准备：「三角形面积」支撑「圆的周长」。"
     },
     {
-      "topicId": "mt_math_s4_coordinate_plane",
+      "topicId": "mt_math_s3_cylinder_cone",
       "prerequisiteId": "mt_math_s3_circle_circumference",
-      "strength": "hard",
-      "reason": "同领域递进：先掌握「圆的周长」，再学习「平面直角坐标系」。"
+      "strength": "soft",
+      "reason": "同领域相邻：「圆的周长」为「圆柱与圆锥的体积和表面积」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_cylinder_cone",
+      "prerequisiteId": "mt_math_s3_circle_area",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「圆的面积」支撑「圆柱与圆锥的体积和表面积」。"
+    },
+    {
+      "topicId": "mt_math_s3_direction_distance",
+      "prerequisiteId": "mt_math_s3_cylinder_cone",
+      "strength": "soft",
+      "reason": "同领域相邻：「圆柱与圆锥的体积和表面积」为「用方向和距离确定位置」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_direction_distance",
+      "prerequisiteId": "mt_math_s3_circle_circumference",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「圆的周长」支撑「用方向和距离确定位置」。"
+    },
+    {
+      "topicId": "mt_math_s3_graph_enlarge_reduce",
+      "prerequisiteId": "mt_math_s3_direction_distance",
+      "strength": "soft",
+      "reason": "同领域相邻：「用方向和距离确定位置」为「图形的放大与缩小」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_graph_enlarge_reduce",
+      "prerequisiteId": "mt_math_s3_cylinder_cone",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「圆柱与圆锥的体积和表面积」支撑「图形的放大与缩小」。"
+    },
+    {
+      "topicId": "mt_math_s3_position_pairs",
+      "prerequisiteId": "mt_math_s3_graph_enlarge_reduce",
+      "strength": "soft",
+      "reason": "同领域相邻：「图形的放大与缩小」为「用数对确定位置」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_position_pairs",
+      "prerequisiteId": "mt_math_s3_direction_distance",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「用方向和距离确定位置」支撑「用数对确定位置」。"
+    },
+    {
+      "topicId": "mt_math_s3_sector",
+      "prerequisiteId": "mt_math_s3_position_pairs",
+      "strength": "soft",
+      "reason": "同领域相邻：「用数对确定位置」为「扇形」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_sector",
+      "prerequisiteId": "mt_math_s3_graph_enlarge_reduce",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「图形的放大与缩小」支撑「扇形」。"
     },
     {
       "topicId": "mt_math_s4_coordinate_plane",
-      "prerequisiteId": "mt_math_s3_circle_area",
+      "prerequisiteId": "mt_math_s3_sector",
+      "strength": "hard",
+      "reason": "同领域递进：先掌握「扇形」，再学习「平面直角坐标系」。"
+    },
+    {
+      "topicId": "mt_math_s4_coordinate_plane",
+      "prerequisiteId": "mt_math_s3_position_pairs",
       "strength": "soft",
-      "reason": "同领域隔项准备：「圆的面积」支撑「平面直角坐标系」。"
+      "reason": "同领域隔项准备：「用数对确定位置」支撑「平面直角坐标系」。"
     },
     {
       "topicId": "mt_math_s4_triangle_properties",
@@ -10685,9 +11117,9 @@
     },
     {
       "topicId": "mt_math_s4_triangle_properties",
-      "prerequisiteId": "mt_math_s3_circle_circumference",
+      "prerequisiteId": "mt_math_s3_sector",
       "strength": "soft",
-      "reason": "同领域隔项准备：「圆的周长」支撑「三角形的性质」。"
+      "reason": "同领域隔项准备：「扇形」支撑「三角形的性质」。"
     },
     {
       "topicId": "mt_math_s4_congruence_asa_aas",
@@ -11242,16 +11674,28 @@
       "reason": "同领域隔项准备：「教室里的数学」支撑「最喜欢的…小调查」。"
     },
     {
-      "topicId": "mt_math_s2_measure_garden",
+      "topicId": "mt_math_s2_overlap_problem",
       "prerequisiteId": "mt_math_s1_survey_favorite",
       "strength": "hard",
-      "reason": "同领域递进：先掌握「最喜欢的…小调查」，再学习「测量小花园」。"
+      "reason": "同领域递进：先掌握「最喜欢的…小调查」，再学习「重叠问题（集合）」。"
+    },
+    {
+      "topicId": "mt_math_s2_overlap_problem",
+      "prerequisiteId": "mt_math_s1_measure_our_things",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「量一量我们的物品」支撑「重叠问题（集合）」。"
     },
     {
       "topicId": "mt_math_s2_measure_garden",
-      "prerequisiteId": "mt_math_s1_measure_our_things",
+      "prerequisiteId": "mt_math_s2_overlap_problem",
       "strength": "soft",
-      "reason": "同领域隔项准备：「量一量我们的物品」支撑「测量小花园」。"
+      "reason": "同领域相邻：「重叠问题（集合）」为「测量小花园」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s2_measure_garden",
+      "prerequisiteId": "mt_math_s1_survey_favorite",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「最喜欢的…小调查」支撑「测量小花园」。"
     },
     {
       "topicId": "mt_math_s2_school_survey",
@@ -11261,9 +11705,9 @@
     },
     {
       "topicId": "mt_math_s2_school_survey",
-      "prerequisiteId": "mt_math_s1_survey_favorite",
+      "prerequisiteId": "mt_math_s2_overlap_problem",
       "strength": "soft",
-      "reason": "同领域隔项准备：「最喜欢的…小调查」支撑「校园小调查」。"
+      "reason": "同领域隔项准备：「重叠问题（集合）」支撑「校园小调查」。"
     },
     {
       "topicId": "mt_math_s2_shopping_budget",
@@ -11278,28 +11722,64 @@
       "reason": "同领域隔项准备：「测量小花园」支撑「购物与预算」。"
     },
     {
-      "topicId": "mt_math_s2_design_pattern",
+      "topicId": "mt_math_s2_chicken_rabbit",
       "prerequisiteId": "mt_math_s2_shopping_budget",
       "strength": "soft",
-      "reason": "同领域相邻：「购物与预算」为「设计对称图案」提供准备。"
+      "reason": "同领域相邻：「购物与预算」为「鸡兔同笼」提供准备。"
     },
     {
-      "topicId": "mt_math_s2_design_pattern",
+      "topicId": "mt_math_s2_chicken_rabbit",
       "prerequisiteId": "mt_math_s2_school_survey",
       "strength": "soft",
-      "reason": "同领域隔项准备：「校园小调查」支撑「设计对称图案」。"
+      "reason": "同领域隔项准备：「校园小调查」支撑「鸡兔同笼」。"
     },
     {
-      "topicId": "mt_math_s3_design_logo",
-      "prerequisiteId": "mt_math_s2_design_pattern",
-      "strength": "hard",
-      "reason": "同领域递进：先掌握「设计对称图案」，再学习「设计班徽」。"
+      "topicId": "mt_math_s2_design_pattern",
+      "prerequisiteId": "mt_math_s2_chicken_rabbit",
+      "strength": "soft",
+      "reason": "同领域相邻：「鸡兔同笼」为「设计对称图案」提供准备。"
     },
     {
-      "topicId": "mt_math_s3_design_logo",
+      "topicId": "mt_math_s2_design_pattern",
       "prerequisiteId": "mt_math_s2_shopping_budget",
       "strength": "soft",
-      "reason": "同领域隔项准备：「购物与预算」支撑「设计班徽」。"
+      "reason": "同领域隔项准备：「购物与预算」支撑「设计对称图案」。"
+    },
+    {
+      "topicId": "mt_math_s3_find_defective",
+      "prerequisiteId": "mt_math_s2_design_pattern",
+      "strength": "hard",
+      "reason": "同领域递进：先掌握「设计对称图案」，再学习「找次品」。"
+    },
+    {
+      "topicId": "mt_math_s3_find_defective",
+      "prerequisiteId": "mt_math_s2_chicken_rabbit",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「鸡兔同笼」支撑「找次品」。"
+    },
+    {
+      "topicId": "mt_math_s3_planting_problem",
+      "prerequisiteId": "mt_math_s3_find_defective",
+      "strength": "soft",
+      "reason": "同领域相邻：「找次品」为「植树问题」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_planting_problem",
+      "prerequisiteId": "mt_math_s2_design_pattern",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「设计对称图案」支撑「植树问题」。"
+    },
+    {
+      "topicId": "mt_math_s3_design_logo",
+      "prerequisiteId": "mt_math_s3_planting_problem",
+      "strength": "soft",
+      "reason": "同领域相邻：「植树问题」为「设计班徽」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_design_logo",
+      "prerequisiteId": "mt_math_s3_find_defective",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「找次品」支撑「设计班徽」。"
     },
     {
       "topicId": "mt_math_s3_grow_plants",
@@ -11309,9 +11789,9 @@
     },
     {
       "topicId": "mt_math_s3_grow_plants",
-      "prerequisiteId": "mt_math_s2_design_pattern",
+      "prerequisiteId": "mt_math_s3_planting_problem",
       "strength": "soft",
-      "reason": "同领域隔项准备：「设计对称图案」支撑「种植与记录」。"
+      "reason": "同领域隔项准备：「植树问题」支撑「种植与记录」。"
     },
     {
       "topicId": "mt_math_s3_plan_trip",
@@ -11326,16 +11806,28 @@
       "reason": "同领域隔项准备：「设计班徽」支撑「规划一次出行」。"
     },
     {
-      "topicId": "mt_math_s3_statistics_project",
+      "topicId": "mt_math_s3_pigeonhole",
       "prerequisiteId": "mt_math_s3_plan_trip",
       "strength": "soft",
-      "reason": "同领域相邻：「规划一次出行」为「统计小课题」提供准备。"
+      "reason": "同领域相邻：「规划一次出行」为「鸽巢问题」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_pigeonhole",
+      "prerequisiteId": "mt_math_s3_grow_plants",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「种植与记录」支撑「鸽巢问题」。"
     },
     {
       "topicId": "mt_math_s3_statistics_project",
-      "prerequisiteId": "mt_math_s3_grow_plants",
+      "prerequisiteId": "mt_math_s3_pigeonhole",
       "strength": "soft",
-      "reason": "同领域隔项准备：「种植与记录」支撑「统计小课题」。"
+      "reason": "同领域相邻：「鸽巢问题」为「统计小课题」提供准备。"
+    },
+    {
+      "topicId": "mt_math_s3_statistics_project",
+      "prerequisiteId": "mt_math_s3_plan_trip",
+      "strength": "soft",
+      "reason": "同领域隔项准备：「规划一次出行」支撑「统计小课题」。"
     },
     {
       "topicId": "mt_math_s4_project_measurement",
@@ -11345,9 +11837,9 @@
     },
     {
       "topicId": "mt_math_s4_project_measurement",
-      "prerequisiteId": "mt_math_s3_plan_trip",
+      "prerequisiteId": "mt_math_s3_pigeonhole",
       "strength": "soft",
-      "reason": "同领域隔项准备：「规划一次出行」支撑「测量与建模」。"
+      "reason": "同领域隔项准备：「鸽巢问题」支撑「测量与建模」。"
     },
     {
       "topicId": "mt_math_s4_math_modeling",
